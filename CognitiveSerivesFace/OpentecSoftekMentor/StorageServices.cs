@@ -24,8 +24,8 @@ namespace OpentecSoftekMentor
         public CloudBlobContainer GetCloudBlobContainer()
         {
             
-            string connString = "";
-            string destContainer = "";
+            string connString = "DefaultEndpointsProtocol=https;AccountName=imagenestest;AccountKey=kpQZigzHv8YzBJwWStbPHbcQcntcIjeHKY4PeFjM4gFT7SCP0PE7FzhL945aXMeUDwFZegphkOSUfJvYbfU96g==;EndpointSuffix=core.windows.net";
+            string destContainer = "faces";
  
             CloudStorageAccount storageAccount = CloudStorageAccount.Parse(connString);
             CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
