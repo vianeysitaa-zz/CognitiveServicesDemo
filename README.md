@@ -4,3 +4,5 @@ Para más información sobre cómo crear y administrar este servicio, pueden con
 
 >También es necesario obtener una llave para el API de Reconocimiento Facial de Azure Cognitive Services. Esta la pueden obtener dentro del portal de azure, o en la siguiente página: [Prueba Servicios Cognitivos](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis)
 >Seleccionen South Central US para obtener el servicio, y cuando obtengan su llave, es necesario ir al archivo Views/Home/Upload.cshtml y en las funciones en donde aparezca la variable subscriptionKey y en los request Headers de Ocp-Apim-Subscription-Key, agregar el valor que obtuvieron.
+
+>IMPORTANTE: Esta DEMO solo funciona para 2 imágenes con 1 rostro cada una. Es necesario que cuando se tengan 2 imágenes en la aplicación, y se deseen comparar otros, se borren los actuales.
